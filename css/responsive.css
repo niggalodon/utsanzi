@@ -1,0 +1,189 @@
+@media screen and (max-width:480px) {
+  .csstransforms .cn-wrapper {
+    font-size: .68em;
+  }
+
+  .cn-button {
+    font-size: 1em;
+  }
+
+  .csstransforms .cn-wrapper li {
+    font-size: 1.52em;
+  }
+
+  h1,
+  .text .heading {
+    font-size: 30px !important;
+  }
+
+  h3 {
+    font-size: 24px !important;
+  }
+
+  h4 {
+    font-size: 18px !important;
+  }
+
+  p {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .no-csstransforms .cn-wrapper {
+    width: 15.15px;
+    margin-left: -7.5em;
+  }
+
+  .no-csstransforms .cn-wrapper li {
+    height: 3em;
+    width: 3em;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #cn-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    text-align: center;
+
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .page:nth-child(1) .left {
+    display: none;
+  }
+
+  .page:nth-child(2) .right {
+    display: none;
+  }
+
+  .page:nth-child(3) .left {
+    display: none;
+
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+
+  .page:nth-child(4) .right {
+    display: none;
+  }
+
+  .page:nth-child(5) .left {
+    display: none;
+
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+
+  .page:nth-child(6) .right {
+    display: none;
+  }
+
+  .page:nth-child(7) .left {
+    display: none;
+
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+
+  .page:nth-child(8) .right {
+    display: none;
+  }
+
+  .page:nth-child(9) .left {
+    display: none;
+
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+
+  .page:nth-child(10) .right {
+    display: none;
+  }
+
+  .page:nth-child(1) .half.right {
+    left: 0%;
+  }
+
+  .page:nth-child(2) .half.right {
+    left: 100%;
+  }
+
+  .page:nth-child(3) .half.right {
+    left: 0%;
+  }
+
+  .page:nth-child(4) .half.right {
+    left: 100%;
+  }
+
+  .page:nth-child(5) .half.right {
+    left: 0%;
+  }
+
+  .page:nth-child(6) .half.right {
+    left: 100%;
+  }
+
+  .page:nth-child(7) .half.right {
+    left: 0%;
+  }
+
+  .page:nth-child(8) .half.right {
+    left: 100%;
+  }
+
+  .page:nth-child(9) .half.right {
+    left: 0%;
+  }
+
+  .page:nth-child(10) .half.right {
+    left: 100%;
+  }
+
+  .half {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    -webkit-transition: -webkit-transform .7s ease-in;
+    transition: transform .7s ease-in;
+    will-change: transform;
+  }
+
+  .half {
+    padding-right: 50px;
+    padding-left: 25px;
+  }
+
+  .fouroh4 {
+    display: block;
+  }
+}
+
+@media screen and (max-device-width: 820px) and (max-device-height: 450px) and (orientation: landscape) {
+  #screen {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    background: url("https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962344/UI/Home/img/rotate.gif") no-repeat center center rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-device-height: 550px) {
+  .home-logo {
+    width: 200px !important;
+  }
+}

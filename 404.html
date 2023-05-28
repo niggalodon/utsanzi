@@ -1,0 +1,60 @@
+<?php
+http_response_code(404);
+include('404.php');
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>404 | Page Not Found</title>
+    <link rel="canonical" href="https://ui.co.zw" />
+    <meta name="url" content="https://ui.co.zw">
+    <meta name="identifier-URL" content="https://ui.co.zw">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/application.css" />
+    <script src="js/modernizr.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="language" content="EN">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EDGE; chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no,user-scalable=0" />
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div id="theloader"></div>
+    <div id="screen"></div>
+    <div id="thecontents">
+      <div class="scene">
+        <div class="page page-1 active">
+          <div id="withoutText" class="half left">
+            <img class="img-fluid" src="img/404.png">
+          </div>
+          <div id="withText" class="half right withText">
+            <span class="text">
+              <img class="img-fluid fouroh4" src="img/404.png">
+              <h1 class="heading">
+                404
+              </h1>
+              <h4>
+                Page Not Found
+              </h4>
+              <h5>
+                <a href="/">Redirect to Home</a>
+              </h5>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/polyfills.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/aos.js"></script>
+  </body>
+
+</html>
