@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:500|Paytone+One&display=swap');
 @import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
-@import "https://res.cloudinary.com/mmm-legal-practitioners/raw/upload/v1607962339/UI/Home/css/bootstrap.min.css";
-@import "https://res.cloudinary.com/mmm-legal-practitioners/raw/upload/v1607962333/UI/Home/css/normalize.css";
-@import "https://res.cloudinary.com/mmm-legal-practitioners/raw/upload/v1607962333/UI/Home/css/component.css";
-@import "https://res.cloudinary.com/mmm-legal-practitioners/raw/upload/v1607962332/UI/Home/css/style.css";
-@import "https://res.cloudinary.com/mmm-legal-practitioners/raw/upload/v1607962331/UI/Home/css/responsive.css";
+@import "bootstrap.min.css";
+@import "normalize.css";
+@import "component.css";
+@import "style.css";
+@import "responsive.css";

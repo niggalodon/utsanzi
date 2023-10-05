@@ -37,6 +37,7 @@ h4,
 h5,
 h6 {
   font-family: 'Paytone One', sans-serif;
+  text-align: left !important;
 }
 
 #webpreview,
@@ -50,15 +51,6 @@ h6 {
 #qahead,
 #teachhead {
   display: none;
-}
-
-#theloader {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: 9999;
-  background: url(https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962336/UI/Home/img/loading.gif) no-repeat center center rgba(0, 0, 0, 0.25);
-  background-color: #05386b;
 }
 
 .fouroh4 {
@@ -106,21 +98,15 @@ h6 {
 }
 
 .page:nth-child(1) .left {
-  background: url("https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962337/UI/Home/img/imgback.jpg") no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: #264772;
 }
 
 .page:nth-child(1) .right {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962349/UI/Home/img/textback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  color: #05386B;
+  background-color: #543030;
+  opacity: 1;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(to right, #000000, #000000 1px, #543030 1px, #543030);
+  color: #d9a47c;
 }
 
 .page:nth-child(1) .right .text {
@@ -140,25 +126,18 @@ h6 {
 .page:nth-child(1) .right .text h4 {
   text-align: center;
   margin-top: 0px;
-  color: #000;
+  color: #d9a47c;
 }
 
 .page:nth-child(2) .left {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962349/UI/Home/img/textback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  color: #05386B;
+  background-color: #543030;
+  opacity: 1;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(to right, #000000, #000000 1px, #543030 1px, #543030);
 }
 
 .page:nth-child(2) .right {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962337/UI/Home/img/imgback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: #264772;
 }
 
 .page:nth-child(2) .left .text p,
@@ -169,21 +148,14 @@ h6 {
 }
 
 .page:nth-child(3) .left {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962337/UI/Home/img/imgback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: #264772;
 }
 
 .page:nth-child(3) .right {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962349/UI/Home/img/textback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  color: #05386B;
+  background-color: #543030;
+  opacity: 1;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(to right, #000000, #000000 1px, #543030 1px, #543030);
 }
 
 .page:nth-child(3) .right,
@@ -209,7 +181,7 @@ h6 {
 .page:nth-child(5) .right .text h5,
 .page:nth-child(7) .right .text h5 {
   margin: 0px;
-  color: #000;
+  color: #d9a47c;
 }
 
 .page:nth-child(3) .right .text span,
@@ -219,21 +191,14 @@ h6 {
 }
 
 .page:nth-child(4) .left {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962349/UI/Home/img/textback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  color: #05386B;
+  background-color: #543030;
+  opacity: 1;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(to right, #000000, #000000 1px, #543030 1px, #543030);
 }
 
 .page:nth-child(4) .right {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962337/UI/Home/img/imgback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: #264772;
 }
 
 .page:nth-child(4) .left .text p,
@@ -248,7 +213,7 @@ h6 {
 .page:nth-child(4) .left .text h5,
 .page:nth-child(6) .left .text h5 {
   margin: 0px;
-  color: #000;
+  color: #d9a47c;
 }
 
 .page:nth-child(6) .left .text span,
@@ -257,103 +222,65 @@ h6 {
 }
 
 .page:nth-child(5) .left {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962337/UI/Home/img/imgback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: #264772;
 }
 
 .page:nth-child(5) .right {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962349/UI/Home/img/textback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  color: #05386B;
+  background-color: #543030;
+  opacity: 1;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(to right, #000000, #000000 1px, #543030 1px, #543030);
 }
 
 .page:nth-child(6) .left {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962349/UI/Home/img/textback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  color: #05386B;
+  background-color: #543030;
+  opacity: 1;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(to right, #000000, #000000 1px, #543030 1px, #543030);
 }
 
 .page:nth-child(6) .right {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962337/UI/Home/img/imgback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: #264772;
 }
 
 .page:nth-child(7) .left {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962337/UI/Home/img/imgback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: #264772;
 }
 
 .page:nth-child(7) .right {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962349/UI/Home/img/textback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  color: #05386B;
+  background-color: #543030;
+  opacity: 1;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(to right, #000000, #000000 1px, #543030 1px, #543030);
 }
 
 .page:nth-child(8) .left {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962349/UI/Home/img/textback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  color: #05386B;
+  background-color: #543030;
+  opacity: 1;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(to right, #000000, #000000 1px, #543030 1px, #543030);
 }
 
 .page:nth-child(8) .right {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962337/UI/Home/img/imgback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: #264772;
 }
 
 .page:nth-child(9) .left {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962337/UI/Home/img/imgback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: #264772;
 }
 
 .page:nth-child(9) .right {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962349/UI/Home/img/textback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  color: #05386B;
+  background-color: #543030;
+  opacity: 1;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(to right, #000000, #000000 1px, #543030 1px, #543030);
 }
 
 .page:nth-child(10) .left {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962349/UI/Home/img/textback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  color: #05386B;
+  background-color: #543030;
+  opacity: 1;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(to right, #000000, #000000 1px, #543030 1px, #543030);
 }
 
 .contex {
@@ -361,11 +288,7 @@ h6 {
 }
 
 .page:nth-child(10) .right {
-  background: url('https://res.cloudinary.com/mmm-legal-practitioners/image/upload/v1607962337/UI/Home/img/imgback.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: #264772;
 }
 
 .page.active .half {
